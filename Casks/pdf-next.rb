@@ -1,6 +1,6 @@
 cask "pdf-next" do
-  version "0.14.4"
-  sha256 "22518b76f44ca4c231180335d16a82ae6450ba70d7746bd78c6bdf55931acce2"
+  version "0.14.5"
+  sha256 "3e2e92a47437188d83c078843d350a169d179b7e3cae496777dd37452d896be0"
 
   url "https://github.com/ricardofrantz/pdf-next/releases/download/v#{version}/pdf-next_#{version}_universal.dmg",
       verified: "github.com/ricardofrantz/pdf-next/"
