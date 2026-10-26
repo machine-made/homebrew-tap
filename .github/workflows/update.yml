@@ -21,14 +21,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          tag=$(gh release view --repo ricardofrantz/pdf-next --json tagName --jq '.tagName')
+          tag=$(gh release view --repo machine-made/pdf-next --json tagName --jq '.tagName')
           version=${tag#v}
           current=$(sed -n 's/^  version "\(.*\)"$/\1/p' Casks/pdf-next.rb)
           if [ "$version" = "$current" ]; then
             echo "pdf-next $version is already the one in the cask."
             exit 0
           fi
-          url="https://github.com/ricardofrantz/pdf-next/releases/download/${tag}/pdf-next_${version}_universal.dmg"
+          url="https://github.com/machine-made/pdf-next/releases/download/${tag}/pdf-next_${version}_universal.dmg"
           curl -fsSL -o dmg "$url"
           sha=$(sha256sum dmg | cut -d' ' -f1)
           rm dmg

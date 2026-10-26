@@ -1,9 +1,9 @@
-# ricardofrantz/homebrew-tap
+# machine-made/homebrew-tap
 
 Homebrew packages for my own software.
 
 ```sh
-brew install --cask ricardofrantz/tap/pdf-next
+brew install --cask machine-made/tap/pdf-next
 xattr -dr com.apple.quarantine /Applications/pdf-next.app
 ```
 
@@ -20,12 +20,22 @@ already in `/Applications`, or delete it first.
 If Homebrew asks you to trust this tap before it will read the cask:
 
 ```sh
-brew trust --cask ricardofrantz/tap/pdf-next
+brew trust --cask machine-made/tap/pdf-next
+```
+
+## Moved
+
+This tap used to be `ricardofrantz/tap`. If you added the old one, switch to
+the new one:
+
+```sh
+brew untap --force ricardofrantz/tap
+brew tap machine-made/tap
 ```
 
 ## What is here
 
-- **[pdf-next](https://github.com/ricardofrantz/pdf-next)** — a small PDF,
+- **[pdf-next](https://github.com/machine-made/pdf-next)** — a small PDF,
   image and markdown viewer that reloads the document within a second of the
   file changing on disk. Built for the LaTeX and Typst compile loop.
 
