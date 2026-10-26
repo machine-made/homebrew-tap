@@ -25,13 +25,20 @@ brew trust --cask machine-made/tap/pdf-next
 
 ## Moved
 
-This tap used to be `ricardofrantz/tap`. If you added the old one, switch to
-the new one:
+This tap used to be `ricardofrantz/tap`. If you installed pdf-next from it,
+move to the new tap:
 
 ```sh
-brew untap --force ricardofrantz/tap
 brew tap machine-made/tap
+brew reinstall --cask machine-made/tap/pdf-next
+brew untap ricardofrantz/tap
 ```
+
+Until you do, installs keep updating through GitHub's redirect.
+
+Do not add `--force` to the last command. `brew untap --force` uninstalls every
+cask from the tap before it removes the tap. Without `--force`, `brew untap`
+lists the installed casks and asks first. If it lists pdf-next, answer no.
 
 ## What is here
 
