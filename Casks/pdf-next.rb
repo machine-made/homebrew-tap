@@ -2,11 +2,11 @@ cask "pdf-next" do
   version "0.15.1"
   sha256 "2d7ea16f2af53882c21d1f543154cb75b25fbd0a80bf3c3d013267057662cfae"
 
-  url "https://github.com/ricardofrantz/pdf-next/releases/download/v#{version}/pdf-next_#{version}_universal.dmg",
-      verified: "github.com/ricardofrantz/pdf-next/"
+  url "https://github.com/machine-made/pdf-next/releases/download/v#{version}/pdf-next_#{version}_universal.dmg",
+      verified: "github.com/machine-made/pdf-next/"
   name "pdf-next"
   desc "PDF, image and markdown viewer that reloads when the file changes"
-  homepage "https://github.com/ricardofrantz/pdf-next"
+  homepage "https://github.com/machine-made/pdf-next"
 
   livecheck do
     url :url
