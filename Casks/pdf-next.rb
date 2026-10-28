@@ -1,6 +1,6 @@
 cask "pdf-next" do
-  version "0.15.1"
-  sha256 "2d7ea16f2af53882c21d1f543154cb75b25fbd0a80bf3c3d013267057662cfae"
+  version "0.16.1"
+  sha256 "6a968a29fde47ffab53faf923f43f2a35e6daf954121a9911ca4f9d412ffaf45"
 
   url "https://github.com/machine-made/pdf-next/releases/download/v#{version}/pdf-next_#{version}_universal.dmg",
       verified: "github.com/machine-made/pdf-next/"
