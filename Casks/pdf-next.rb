@@ -2,8 +2,7 @@ cask "pdf-next" do
   version "0.16.3"
   sha256 "357a49877aa88d3fc463f2cdb0b09e2a2545a609a78f90259ca54cecd9accd8f"
 
-  url "https://github.com/machine-made/pdf-next/releases/download/v#{version}/pdf-next_#{version}_universal.dmg",
-      verified: "github.com/machine-made/pdf-next/"
+  url "https://github.com/machine-made/pdf-next/releases/download/v#{version}/pdf-next_#{version}_universal.dmg"
   name "pdf-next"
   desc "PDF, image and markdown viewer that reloads when the file changes"
   homepage "https://github.com/machine-made/pdf-next"
