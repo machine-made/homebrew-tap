@@ -1,6 +1,6 @@
 # machine-made/homebrew-tap
 
-Homebrew packages for my own software.
+Homebrew casks for machine-made software.
 
 ```sh
 brew install --cask machine-made/tap/pdf-next
