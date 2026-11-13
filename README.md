@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 `homebrew-tap` holds the Homebrew casks for machine-made software.
 
 ```sh
