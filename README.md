@@ -1,6 +1,4 @@
-# machine-made/homebrew-tap
-
-Homebrew casks for machine-made software.
+`homebrew-tap` holds the Homebrew casks for machine-made software.
 
 ```sh
 brew install --cask machine-made/tap/pdf-next
