@@ -1,6 +1,8 @@
-# machine-made/homebrew-tap
+![homebrew-tap banner](https://raw.githubusercontent.com/machine-made/homebrew-tap/main/assets/readme-banner-v3.jpg)
 
-Homebrew packages for my own software.
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
+`homebrew-tap` holds the Homebrew casks for machine-made software.
 
 ```sh
 brew install --cask machine-made/tap/pdf-next
